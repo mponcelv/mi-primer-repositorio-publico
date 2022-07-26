@@ -1,0 +1,30 @@
+body{
+    width: 1200px;
+}
+header{
+
+    background-color: aquamarine;
+    width: auto;
+    height: 200px;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: violet;
+    weight: 200px;
+}
+
+footer{
+    background-color: blueviolet;
+}
+    .cuadro{
+        display: inline-block;
+        width: 70px;
+        height: 200px;
+        background-color: red;
+  }
+  
+
+ 
