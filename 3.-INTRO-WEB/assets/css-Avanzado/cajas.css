@@ -1,0 +1,48 @@
+
+.cuadro{
+    background-color:aqua;
+    height: 100px;
+    width: 100px;
+
+    margin: 20px;   /* margenes */
+    margin-top: 10px;
+    margin-right: 30;
+    margin-left: 40px;   
+
+    padding: 50px;
+
+    /*display:inline-block;  de vertical a horizontal */
+    border: 10px solid #c0e90c /* bordo */
+    
+
+
+
+}    
+
+
+.el-1{
+    background-color:blue
+
+}
+   
+
+
+
+.el-2{
+    background-color:rgb(16, 189, 54)
+    position: absolute;
+}
+
+.el-3{
+    background-color:rgb(201, 33, 111)
+}
+
+.el-4{
+    background-color:rgb(204, 106, 26)
+}
+
+.el-5{
+    background-color:rgb(36, 129, 41)
+}
+
+/* posicion */

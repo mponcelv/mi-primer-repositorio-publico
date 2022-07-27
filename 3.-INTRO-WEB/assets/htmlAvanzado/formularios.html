@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <link rel="stylesheet" href="formularios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <h1>formularios</h1>
+<form >
+<div class="campo">
+<label for="nombre">nombre</label>
+<input type="text" placeholder="panchito lopez"
+name="nombre" id="nombre" >
+</div>  
+
+<div class="campo">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="panchito@gmail.com" value="hola" required>
+</div>
+<div class="submit">
+    <input type="submit" value="enviar" required>
+</div>
+<div class="campo">
+    <label for="password">contraseña</label>
+    <input type="password" name="password" id="password" required>
+
+<div class="campo">
+    <label for="color">color</label>
+    <input type="color" name="color" id="color"></div>
+    <div class="campo">
+    <label for="number">number</label>
+    <input type="number" name="number" id="number" min="10" max="20" step="4">
+</div>
+<div class="campo">
+    <label for="range">range</label>
+    <input type="range" name="renge" id="range" min="10" max="20" step="4">
+</div>
+
+
+
+<div class="reset">
+    <input type="reset" value="limpiar">
+</div>
+
+
+<!--<button type="submit">Enviar</button>-->
+
+</form>
+
+<h3>input de rango con marcas</h3>
+<input type="range" list="tickmarks" min="0" max="20">
+
+<datalist id="tickmarks">
+<option value="0">
+<option value="5">
+<option value="10" >
+</datalist>
+
+
+<div class="campo">
+    <label for="fecha">fecha</label>
+    <input type="date" name="fecha" id="fecha" >
+</div>
+<div class="campo">
+    <label for="archivo">archivo</label>
+    <input type="file" name="archivo" id="archivo" >
+</div>
+
+<div class="campo">
+    <label for="radio">radio</label>
+    <input type="radio" name="radio" id="radio" >
+</div>
+
+<div class="campo">
+    <label for="archivo">checkbox</label>
+    <input type="checkbox" name="checkbox" id="checkbox" value="opcion2" >
+</div>
+
+<i  style="color:greenyellow" class="fa-brands fa-apple"></i>
+
+
+</body>
+</html>
