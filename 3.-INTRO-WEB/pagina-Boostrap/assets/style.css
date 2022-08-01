@@ -1,0 +1,17 @@
+.img-carousel{
+    height: calc(50vh - 76px);
+    object-fit: cover;
+}
+/* body{
+    background-color: aqua;
+} */
+
+.img-card{
+    height: 400px;
+    object-fit: cover;
+}
+
+caja{
+    position: relative;
+    top: -100px;
+}
